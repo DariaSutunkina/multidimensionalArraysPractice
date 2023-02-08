@@ -3,10 +3,10 @@ package edu.dashasutunkina;
 public class multidimensionalArrays {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
-        multidimensional(numbers);
+        showArray(numbers);
         inverseArray(numbers);
     }
-    public static void multidimensional (int [] array){
+    public static void showArray(int [] array){
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
